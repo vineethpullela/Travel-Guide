@@ -1,0 +1,35 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  height: 360px;
+}
+
+.image {
+  height: 150px;
+  width: 100%;
+}
+
+.context {
+  padding: 10px;
+}
+
+.card-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.card-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+}
